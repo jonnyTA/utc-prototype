@@ -25,6 +25,8 @@ public class UtcPrototypeDTO {
     @Setter
     private LocalDateTime updateddAt;
 
+    public UtcPrototypeDTO(){}
+
     public UtcPrototypeDTO(Long id, String funnyStuff){
         this.id = id;
         this.funnyStuff = funnyStuff;
